@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:background="@drawable/menu_popup_bg"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:id="@+id/radioNew"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="?attr/colorPrimary"
+            android:checked="true"
+            android:minHeight="40dp"
+            android:paddingLeft="5dp"
+            android:text="Newest First"
+            android:textColor="?attr/colorPrimary" />
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:id="@+id/radioOld"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="?attr/colorPrimary"
+            android:minHeight="40dp"
+            android:paddingLeft="5dp"
+            android:text="Oldest First"
+            android:textColor="?attr/colorPrimary" />
+    </RadioGroup>
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Application Color"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="#454545" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+            android:background="#45454545" />
+    </FrameLayout>
+
+    <GridView
+        android:id="@+id/gvColorList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:listSelector="@drawable/color_grid_selector_xml"
+        android:numColumns="4"
+        android:verticalSpacing="10dp" />
+</LinearLayout>

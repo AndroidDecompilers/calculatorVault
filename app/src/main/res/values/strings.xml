@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  Copyright (C) 2014 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<resources>
+
+    <!-- Name of the application. [CHAR_LIMIT=NONE] -->
+    <string name="app_name">Calculator</string>
+
+    <!-- Error displayed when expression evaluates to NaN. [CHAR_LIMIT=14] -->
+    <string name="error_nan">Not a number</string>
+    <!-- Error displayed when expression contains a syntax error. [CHAR_LIMIT=14] -->
+    <string name="error_syntax">Error</string>
+
+    <!-- Abbrev. name of cosine function (e.g. "cos(π)". [CHAR_LIMIT=3] -->
+    <string name="fun_cos">cos</string>
+    <!-- Natural logarithm function (e.g. "ln(2)"). [CHAR_LIMIT=3] -->
+    <string name="fun_ln">ln</string>
+    <!-- Logarithm function (e.g. "log(10)"). [CHAR_LIMIT=3] -->
+    <string name="fun_log">log</string>
+    <!-- Abbrev. name of sine function (e.g. "sin(π)". [CHAR_LIMIT=3] -->
+    <string name="fun_sin">sin</string>
+    <!-- Abbrev. name of tangent function (e.g. "tan(π)". [CHAR_LIMIT=3] -->
+    <string name="fun_tan">tan</string>
+
+    <!-- Clear operation to clear the currently entered expression. [CHAR_LIMIT=3] -->
+    <string name="clr">clr</string>
+    <!-- Delete operation to remove last entered token. [CHAR_LIMIT=3] -->
+    <string name="del">del</string>
+
+    <!-- Content Descriptions -->
+    <eat-comment />
+
+    <!-- Content description for 'e' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_const_e">Euler\'s number</string>
+    <!-- Content description for 'π' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_const_pi">pi</string>
+
+    <!-- Content description for '.' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_dec_point">point</string>
+
+    <!-- Content description for '(' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_lparen">left parenthesis</string>
+    <!-- Content description for ')' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_rparen">right parenthesis</string>
+
+    <!-- Content description for 'cos' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_fun_cos">cosine</string>
+    <!-- Content description for 'ln' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_fun_ln">natural logarithm</string>
+    <!-- Content description for 'log' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_fun_log">logarithm</string>
+    <!-- Content description for 'sin' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_fun_sin">sine</string>
+    <!-- Content description for 'tan' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_fun_tan">tangent</string>
+
+    <!-- Content description for '+' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_op_add">plus</string>
+    <!-- Content description for '÷' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_op_div">divide</string>
+    <!-- Content description for '!' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_op_perc" translatable="false">percentage</string>
+    <!-- Content description for '×' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_op_mul">times</string>
+    <!-- Content description for '^' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_op_pow">power</string>
+    <!-- Content description for '√' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_op_sqrt">square root</string>
+    <!-- Content description for '-' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_op_sub">minus</string>
+
+    <!-- Content description for "clr" button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_clr">clear</string>
+    <!-- Content description for "del" button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_del">delete</string>
+    <!-- Content description for '=' button. [CHAR_LIMIT=NONE] -->
+    <string name="desc_eq">equals</string>
+    <string name="title_activity_drawer_acty" translatable="false">Calculator</string>
+
+    <string name="title_section1" translatable="false">Section 1</string>
+    <string name="title_section2" translatable="false">Section 2</string>
+    <string name="title_section3" translatable="false">Section 3</string>
+
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+    <string name="action_example" translatable="false">Example action</string>
+
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="developer_mail" translatable="false">kkinfosis@gmail.com</string>
+    <string name="lockscreen_access_pattern_cell_added" translatable="false">Cell added</string>
+    <string name="lockscreen_access_pattern_start" translatable="false">Pattern started</string>
+    <string name="lockscreen_access_pattern_detected" translatable="false">Pattern completed</string>
+    <string name="lockscreen_access_pattern_cleared" translatable="false">Pattern cleared</string>
+    <string name="msg_release_finger_when_done" translatable="false">Release finger when done</string>
+    <string name="msg_draw_an_old_pattern" translatable="false">Draw an old pattern</string>
+    <string name="msg_draw_pattern_to_unlock" translatable="false">Draw pattern to unlock</string>
+    <string name="msg_redraw_pattern_to_confirm" translatable="false">Redraw pattern to confirm:</string>
+    <string name="msg_draw_an_unlock_pattern" translatable="false">Draw an unlock pattern</string>
+    <string name="cmd_confirm" translatable="false">Confirm</string>
+    <string name="pkey_display_stealth_mode" translatable="false">alp.pkey.display.stealth_mode</string>
+    <string name="pkey_display_min_wired_dots" translatable="false">alp.pkey.display.min_wired_dots</string>
+    <string name="pkey_display_max_retries" translatable="false">alp.pkey.display.max_retries</string>
+    <string name="pkey_display_captcha_wired_dots" translatable="false">alp.pkey.display.captcha_wired_dots</string>
+    <string name="pkey_sys_auto_save_pattern" translatable="false">alp.pkey.sys.auto_save_pattern</string>
+    <string name="pkey_sys_pattern" translatable="false">alp.pkey.sys.pattern</string>
+    <string name="pkey_sys_encrypter_class" translatable="false">alp.pkey.sys.encrypter_class</string>
+    <string name="msg_try_again" translatable="false">Wrong Pattern, try again</string>
+    <string name="msg_your_new_unlock_pattern" translatable="false">Your new unlock pattern:</string>
+    <string name="msg_pattern_recorded" translatable="false">Pattern recorded!</string>
+    <string name="alp_42447968_cmd_continue" translatable="false">Continue</string>
+    <string name="cmd_continue" translatable="false">Continue</string>
+    <string name="cmd_forgot_pattern" translatable="false">Forgot pattern?</string>
+    <string name="interstitial" translatable="false">\"\"</string>
+    <string name="action_another_app" translatable="false">Open other app</string>
+    <string name="facedown" translatable="false">When you place your phone face down, this app will automatically close and lock itself.</string>
+    <string name="shareString" translatable="false">Hide pictures, videos and Lock Apps with just a click. Most recommended app in Play Store is now COMPLETELY FREE &amp; AD Free !!Enjoy your privacy with Calculator Vault-Gallery Lock :) \n https://play.google.com/store/apps/details?id=calculator.vault.com</string>
+    <string name="action_close_app" translatable="false">Close the app</string>
+    <string name="action_website" translatable="false">Open website -</string>
+    <string name="device_policy_text" translatable="false">Activate device administrator permission to prevent uninstallation of this application from other users using this phone.</string>
+    <string name="uninstall_protection_text" translatable="false">Activate \\\"start protection\\\" to prevent this application from being uninstalled by mistake or by kids. uninstalling will erase the hidden data permanently and not recoverable.</string>
+    <string name="uninstall_protection_text_line2" translatable="false">File not deleted from external sdcard. Please delete manually using file manager</string>
+    <string name="manually_unhide_kitkat_descr" translatable="false">The files will be unhided to the path <font color='#1E88E5'><b>Android/data/calculator.vault.com/files</b></font> in SD card.<br></br>Because <font color='#1E88E5'><b>System Gall/ery cannot show files under Android folder</b></font>, if you want your unhided images or videos to show in your System Gallery,<font color='#F44336'><b>you need to move the unhided files out of Android folder manually.</b></font></string>
+    <string name="manually_unhide_kitkat_descr2" translatable="false">You can use build-in File Manager or connect your device to your computer to move.</string>
+    <string name="hint_uninstall" translatable="false">HIDDEN DATA: Your hidden files are stored in internal memory inside the app.\n\nREMEMBER: Before deleting this app, unhide all pictures and videos from app. If you uninstall the app without unhiding, the pictures and videos will be lost forever.\n\nBE CAREFULL:  Do not factory reset your phone before unhiding your files from this app otherwise it will be deleted forever.</string>
+    <string name="rate_dialog_title" translatable="false">Rate this app</string>
+    <string name="rate_dialog_message" translatable="false">If you enjoy playing this app, would you mind taking a moment to rate it? It won\\\'t take more than a minute. Thanks for your support!</string>
+    <string name="rate_dialog_ok" translatable="false">Rate It Now</string>
+    <string name="rate_dialog_no" translatable="false">No, Thanks</string>
+    <string name="rate_dialog_cancel" translatable="false">Remind Me Later</string>
+    <string name="manually_delete_description" translatable="false">In Android 4.4+, SD card is no longer writable for non-system apps.<br></br><font color='#F44336'><b>You need to delete the original files manually.</b></font><br></br>or if you want to delete the SD card files automatically after import then Select SD card to allow Calculator to make write operation.</string>
+    <string name="select_descr_sdcard" translatable="false">SELECT SD CARD</string>
+    <string name="applock_permission_string" translatable="false">App lock needs a permission on Android lolipop and higher versions, Press OK to proceed for permission as shown in image below.</string>
+    <string name="choose_root_sdcard" translatable="false">Please choose the root directory of SD card to grant Calculator to operate files in Sd card.</string>
+    <string name="delete_descr_original" translatable="false">Delete the Original Files</string>
+    <string name="manually_delete_kitkat_desc" translatable="false">In Android 4.4+, SD card is no longer writable for non-system apps.<br></br><font color='#F44336'><b>You need to delete the original files manually.</b></font></string>
+    <string name="howtodelete_desc" translatable="false">You can use <font color='#1E88E5'><b>System Gallery App</b></font> or built-in File Manager or connect your device to your computer to delete them.</string>
+    <string name="tempvalue" translatable="false">Scroll to find our \"Calculator vault\" app and turn it on.</string>
+    <string name="whatsnew" translatable="false">v5.0 \n *App Calculator icon changed.\n*App lock speed improved.\n\n v3.0 \n *Themes: change look of your gallery lock app.\n *Password Recovery: Press 7777 = into our calculator app to get your password into your email.\n\n v2.0:Equal to unlock in settings.\n\n v1.0: Fake Password, App Disguise, Flip lock, Slide show transitions, Intruder Selfie, Fake Covers, Backup Pattern Lock.</string>
+    <string name="unsusuccess_text_sdcard" translatable="false">File not deleted from external sdcard. Please delete manually using file manager</string>
+    <string name="delete_files_descr_manual_toast" translatable="false">Need to delete SD Card files manually from file manager</string>
+    <string name="applist_tit_apps" translatable="false">Apps</string>
+    <string name="applist_tit_social" translatable="false">Social</string>
+    <string name="applist_tit_important" translatable="false">Important</string>
+    <string name="applist_tit_system" translatable="false">System</string>
+    <string name="title_applock" translatable="false">App Lock</string>
+    <string name="add_folder_string" translatable="false">Tap \"Add Folder\" icon on top \n to create new folder</string>
+    <string name="add_videos_string" translatable="false">Tap \"Add Videos\" icon on bottom \n to hide videos</string>
+    <string name="add_pictures_string" translatable="false">Tap \"Add Pictures\" icon on bottom \n to hide pictures</string>
+    <string name="step_one" translatable="false">Long press on valid <font color='#48BAEF'>Image</font> or click download button for <font color='#48BAEF'>Video</font>amp; <font color='#48BAEF'>Pictures</font> on website.></string>
+    <string name="step_two" translatable="false">Select <font color='#48BAEF'>Save</font>to download and lock directly into Gallery Lock.</string>
+    <string name="title_activity_manage_space" translatable="false">ManageSpaceActivity</string>
+    <string name="title_activity_fake_icon" translatable="false">App Disguise</string>
+    <string name="title_activity_fake_pin" translatable="false">Fake Password</string>
+    <string name="title_activity_intruder" translatable="false">Intruder Selfie</string>
+    <string name="title_activity_intruder_setting" translatable="false">Intruder Setting</string>
+    <string name="lock_name" translatable="false">Calculator Vault</string>
+    <string name="applock_accessibility_description" translatable="false">After enable this service,\n1. decrease battery usage by 50%\n2.Speed up app locker\n3.lock service after device reboots will speed up\n\nApplication commitment:\nWe promise that this service is only used for above features and we never collect or track any private information.</string>
+    <string name="move_activity" translatable="false">Move To</string>
+
+</resources>

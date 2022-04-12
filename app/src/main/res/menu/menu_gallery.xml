@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/multiple_select_icon"
+        android:id="@+id/item_selectall"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title="Select All" />
+    <item
+        android:icon="@drawable/lock_icon"
+        android:id="@+id/item_lock"
+        android:orderInCategory="200"
+        app:showAsAction="always"
+        android:title="Hide" />
+</menu>

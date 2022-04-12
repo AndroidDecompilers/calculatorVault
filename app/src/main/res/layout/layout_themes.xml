@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end"
+        android:animateLayoutChanges="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/theme_color_margin_top"
+            android:text="Customize the look of your Gallery Lock."
+            android:textColor="@color/text_brown"
+            android:textSize="16dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#442a2a2a" />
+
+        <GridView
+            android:id="@+id/gvColorList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/theme_color_margin"
+            android:clipToPadding="false"
+            android:listSelector="@drawable/color_grid_selector_xml"
+            android:numColumns="4"
+            android:verticalSpacing="@dimen/theme_color_margin" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/white"
+    android:id="@id/llTop"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"></FrameLayout>
+<!--<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res-auto"-->
+    <!--app:background="@color/black"-->
+    <!--app:layout_height="match_parent"-->
+    <!--app:layout_width="match_parent">-->
+
+    <!--<android.support.design.widget.AppBarLayout-->
+        <!--app:elevation="0dp"-->
+        <!--app:id="@id/appbar"-->
+        <!--app:layout_height="wrap_content"-->
+        <!--app:layout_width="match_parent">-->
+
+        <!--<FrameLayout-->
+            <!--app:background="@color/white"-->
+            <!--app:id="@id/llTop"-->
+            <!--app:layout_height="UNKNOWN_DATA_0x3701"-->
+            <!--app:layout_scrollFlags="15"-->
+            <!--app:layout_width="match_parent">-->
+
+            <!--<LinearLayout-->
+                <!--app:gravity="top|bottom|center_vertical|fill_vertical|center|fill"-->
+                <!--app:layout_height="match_parent"-->
+                <!--app:layout_width="match_parent"-->
+                <!--app:orientation="horizontal">-->
+
+                <!--<FrameLayout-->
+                    <!--app:layout_height="wrap_content"-->
+                    <!--app:layout_weight="1.0"-->
+                    <!--app:layout_width="UNKNOWN_DATA_0x1">-->
+
+                    <!--<LinearLayout-->
+                        <!--app:focusable="true"-->
+                        <!--app:focusableInTouchMode="true"-->
+                        <!--app:layout_height="UNKNOWN_DATA_0x0"-->
+                        <!--app:layout_width="UNKNOWN_DATA_0x0" />-->
+
+                    <!--<EditText-->
+                        <!--app:background="@color/white"-->
+                        <!--app:ems="10"-->
+                        <!--app:hint="Search or Enter URL"-->
+                        <!--app:id="@id/editText1"-->
+                        <!--app:imeOptions="actionGo|actionSearch|actionSend|actionNext|actionDone|actionPrevious"-->
+                        <!--app:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|phone"-->
+                        <!--app:layout_height="UNKNOWN_DATA_0x3701"-->
+                        <!--app:layout_weight="1.0"-->
+                        <!--app:layout_width="match_parent"-->
+                        <!--app:paddingLeft="35dp"-->
+                        <!--app:paddingRight="5dp"-->
+                        <!--app:selectAllOnFocus="true"-->
+                        <!--app:singleLine="true"-->
+                        <!--app:textColor="#000000"-->
+                        <!--app:textCursorDrawable="@drawable/browser_cursor_color_drawable"-->
+                        <!--app:textSize="14dp" />-->
+
+                    <!--<ImageView-->
+                        <!--app:id="@id/ivWebIcon"-->
+                        <!--app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill"-->
+                        <!--app:layout_height="UNKNOWN_DATA_0xf01"-->
+                        <!--app:layout_marginLeft="10dp"-->
+                        <!--app:layout_marginTop="1px"-->
+                        <!--app:layout_width="UNKNOWN_DATA_0xf01"-->
+                        <!--app:scaleType="fitXY"-->
+                        <!--app:src="@drawable/browser_globe" />-->
+                <!--</FrameLayout>-->
+
+                <!--<FrameLayout-->
+                    <!--app:layout_height="wrap_content"-->
+                    <!--app:layout_width="wrap_content">-->
+
+                    <!--<ImageButton-->
+                        <!--app:background="?attr/selectableItemBackgroundBorderless"-->
+                        <!--app:id="@id/btnStop"-->
+                        <!--app:layout_height="wrap_content"-->
+                        <!--app:layout_width="wrap_content"-->
+                        <!--app:padding="10dp"-->
+                        <!--app:src="@drawable/ic_cancel"-->
+                        <!--app:visibility="gone" />-->
+
+                    <!--<ImageButton-->
+                        <!--app:background="?attr/selectableItemBackgroundBorderless"-->
+                        <!--app:id="@id/btnRefresh"-->
+                        <!--app:layout_height="wrap_content"-->
+                        <!--app:layout_width="wrap_content"-->
+                        <!--app:padding="15dp"-->
+                        <!--app:src="@drawable/ic_reload" />-->
+
+                    <!--<ImageButton-->
+                        <!--app:background="?attr/selectableItemBackgroundBorderless"-->
+                        <!--app:id="@id/btnGo"-->
+                        <!--app:layout_height="wrap_content"-->
+                        <!--app:layout_width="wrap_content"-->
+                        <!--app:padding="15dp"-->
+                        <!--app:src="@drawable/ic_go"-->
+                        <!--app:visibility="gone" />-->
+                <!--</FrameLayout>-->
+
+                <!--<FrameLayout-->
+                    <!--app:layout_height="wrap_content"-->
+                    <!--app:layout_width="wrap_content">-->
+
+                    <!--<ImageButton-->
+                        <!--app:background="?attr/selectableItemBackgroundBorderless"-->
+                        <!--app:id="@id/btnBookmarks"-->
+                        <!--app:layout_height="wrap_content"-->
+                        <!--app:layout_width="wrap_content"-->
+                        <!--app:padding="15dp"-->
+                        <!--app:src="@drawable/bookmark_browser_selector" />-->
+                <!--</FrameLayout>-->
+            <!--</LinearLayout>-->
+
+            <!--<ProgressBar-->
+                <!--style="?unknown_attr_ref: 1010078"-->
+                <!--app:id="@id/progressBar1"-->
+                <!--app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill"-->
+                <!--app:layout_height="wrap_content"-->
+                <!--app:layout_width="match_parent"-->
+                <!--app:max="10000"-->
+                <!--app:maxHeight="2dp"-->
+                <!--app:minHeight="2dp"-->
+                <!--app:progressDrawable="@drawable/browser_progress_drawable" />-->
+        <!--</FrameLayout>-->
+
+        <!--<View-->
+            <!--app:background="#22454545"-->
+            <!--app:layout_height="UNKNOWN_DATA_0x101"-->
+            <!--app:layout_width="match_parent" />-->
+    <!--</android.support.design.widget.AppBarLayout>-->
+
+    <!--<FrameLayout-->
+        <!--app:background="@color/text_black"-->
+        <!--app:id="@id/nonVideoLayout"-->
+        <!--app:layout_behavior="@string/appbar_scrolling_view_behavior"-->
+        <!--app:layout_height="match_parent"-->
+        <!--app:layout_width="match_parent">-->
+
+        <!--<com.safebrowser.VideoEnabledWebView-->
+            <!--app:id="@id/webView"-->
+            <!--app:layout_height="match_parent"-->
+            <!--app:layout_width="match_parent" />-->
+    <!--</FrameLayout>-->
+
+    <!--<LinearLayout-->
+        <!--app:background="@color/white"-->
+        <!--app:id="@id/bottomBar"-->
+        <!--app:layout_behavior="com.safebrowser.AutoHideBottom"-->
+        <!--app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill"-->
+        <!--app:layout_height="wrap_content"-->
+        <!--app:layout_width="match_parent"-->
+        <!--app:orientation="vertical">-->
+
+        <!--<View-->
+            <!--app:background="#22454545"-->
+            <!--app:layout_height="UNKNOWN_DATA_0x101"-->
+            <!--app:layout_width="match_parent" />-->
+
+        <!--<LinearLayout-->
+            <!--app:layout_height="UNKNOWN_DATA_0x3201"-->
+            <!--app:layout_width="match_parent"-->
+            <!--app:orientation="horizontal">-->
+
+            <!--<ImageButton-->
+                <!--app:background="?attr/selectableItemBackgroundBorderless"-->
+                <!--app:id="@id/btnBack"-->
+                <!--app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill"-->
+                <!--app:layout_height="wrap_content"-->
+                <!--app:layout_marginLeft="10dp"-->
+                <!--app:layout_marginRight="10dp"-->
+                <!--app:layout_weight="1.0"-->
+                <!--app:layout_width="UNKNOWN_DATA_0x1"-->
+                <!--app:padding="10dp"-->
+                <!--app:src="@drawable/back_btn_browser_selector" />-->
+
+            <!--<ImageButton-->
+                <!--app:background="?attr/selectableItemBackgroundBorderless"-->
+                <!--app:id="@id/btnNext"-->
+                <!--app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"-->
+                <!--app:layout_height="wrap_content"-->
+                <!--app:layout_marginLeft="10dp"-->
+                <!--app:layout_marginRight="10dp"-->
+                <!--app:layout_weight="1.0"-->
+                <!--app:layout_width="UNKNOWN_DATA_0x1"-->
+                <!--app:padding="10dp"-->
+                <!--app:src="@drawable/next_browser" />-->
+
+            <!--<ImageButton-->
+                <!--app:background="?attr/selectableItemBackgroundBorderless"-->
+                <!--app:id="@id/btnHome"-->
+                <!--app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"-->
+                <!--app:layout_height="wrap_content"-->
+                <!--app:layout_marginLeft="10dp"-->
+                <!--app:layout_marginRight="10dp"-->
+                <!--app:layout_weight="1.0"-->
+                <!--app:layout_width="UNKNOWN_DATA_0x1"-->
+                <!--app:padding="10dp"-->
+                <!--app:src="@drawable/ic_home" />-->
+
+            <!--<ImageButton-->
+                <!--app:background="?attr/selectableItemBackgroundBorderless"-->
+                <!--app:id="@id/btnHistory"-->
+                <!--app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"-->
+                <!--app:layout_height="wrap_content"-->
+                <!--app:layout_marginLeft="10dp"-->
+                <!--app:layout_marginRight="10dp"-->
+                <!--app:layout_weight="1.0"-->
+                <!--app:layout_width="UNKNOWN_DATA_0x1"-->
+                <!--app:padding="10dp"-->
+                <!--app:src="@drawable/bottombar_history_browser" />-->
+        <!--</LinearLayout>-->
+    <!--</LinearLayout>-->
+
+    <!--<RelativeLayout-->
+        <!--app:id="@id/videoLayout"-->
+        <!--app:layout_height="match_parent"-->
+        <!--app:layout_width="match_parent" />-->
+<!--</android.support.design.widget.CoordinatorLayout>-->

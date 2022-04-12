@@ -1,0 +1,5 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <integer name="pkey_display_min_wired_dots_default">4</integer>
+    <integer name="pkey_display_max_retries_default">5</integer>
+    <integer name="pkey_display_captcha_wired_dots_default">4</integer>
+</resources>

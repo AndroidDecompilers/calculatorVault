@@ -1,0 +1,241 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/calculator_accent_color</item>
+        <item name="colorPrimaryDark">@android:color/black</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorAccent">@color/calculator_accent_color</item>
+    </style>
+
+    <style name="AppThemeOne" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimaryThemeOne</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkThemeOne</item>
+        <item name="actionBarStyle">@style/ActionBarTheme</item>
+    </style>
+
+    <style name="ActionBarTheme" parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="titleTextStyle">@style/MyTitleTextStyle</item>
+    </style>
+
+    <style name="MyTitleTextStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Theme.AppCompat.Translucent" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+    </style>
+
+
+    <style name="AppThemeTwo" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimaryThemeTwo</item>
+        <item name="colorAccent">@color/colorAccentThemeTwo</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkThemeTwo</item>
+        <item name="actionBarStyle">@style/ActionBarTheme</item>
+    </style>
+
+
+    <style name="AppThemeThree" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimaryThemeThree</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkThemeThree</item>
+        <item name="colorAccent">@color/colorAccentThemeThree</item>
+        <item name="actionBarStyle">@style/ActionBarTheme</item>
+    </style>
+
+
+    <style name="AppThemeFour" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimaryThemeFour</item>
+        <item name="colorAccent">@color/colorAccentThemeFour</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkThemeFour</item>
+        <item name="actionBarStyle">@style/ActionBarTheme</item>
+    </style>
+
+
+    <style name="AppThemeFive" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimaryThemeFive</item>
+        <item name="colorAccent">@color/colorAccentThemeFive</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkThemeFive</item>
+        <item name="actionBarStyle">@style/ActionBarTheme</item>
+    </style>
+
+
+    <style name="AppThemeSix" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimaryThemeSix</item>
+        <item name="colorAccent">@color/colorAccentThemeSix</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkThemeSix</item>
+        <item name="actionBarStyle">@style/ActionBarTheme</item>
+    </style>
+
+
+    <style name="AppThemeSeven" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimaryThemeSeven</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkThemeSeven</item>
+        <item name="colorAccent">@color/colorAccentThemeSeven</item>
+        <item name="actionBarStyle">@style/ActionBarTheme</item>
+    </style>
+
+
+    <style name="AppThemeEight" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimaryThemeEight</item>
+        <item name="colorAccent">@color/colorAccentThemeEight</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkThemeEight</item>
+        <item name="actionBarStyle">@style/ActionBarTheme</item>
+    </style>
+
+
+    <style name="AppThemeNine" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimaryThemeNine</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkThemeNine</item>
+        <item name="colorAccent">@color/colorAccentThemeNine</item>
+        <item name="actionBarStyle">@style/ActionBarTheme</item>
+    </style>
+
+    <style name="AppThemeTen" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimaryThemeTen</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkThemeTen</item>
+        <item name="colorAccent">@color/colorAccentThemeTen</item>
+        <item name="actionBarStyle">@style/ActionBarTheme</item>
+    </style>
+
+
+    <style name="AppThemeEleven" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimaryThemeEleven</item>
+        <item name="colorAccent">@color/colorAccentThemeEleven</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkThemeEleven</item>
+        <item name="actionBarStyle">@style/ActionBarTheme</item>
+    </style>
+
+    <style name="AppThemeTwelve" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimaryThemeTweleve</item>
+        <item name="colorAccent">@color/colorAccentThemeTwelve</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkThemeTwelve</item>
+        <item name="actionBarStyle">@style/ActionBarTheme</item>
+    </style>
+
+    <style name="AppThemeThirteen" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimaryThirteen</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkThemeThirteen</item>
+        <item name="colorAccent">@color/colorAccentThemeThirteen</item>
+        <item name="actionBarStyle">@style/ActionBarTheme</item>
+    </style>
+
+    <style name="AppThemeFourteen" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimaryThemeFourteen</item>
+        <item name="colorAccent">@color/colorAccentThemeFourteen</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkThemeFourteen</item>
+        <item name="actionBarStyle">@style/ActionBarTheme</item>
+    </style>
+
+    <style name="AppThemeFifteen" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimaryThemeFifteen</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkThemeFifteen</item>
+        <item name="colorAccent">@color/colorAccentThemeFifteen</item>
+        <item name="actionBarStyle">@style/ActionBarTheme</item>
+    </style>
+
+    <style name="AppThemeSixteen" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimaryThemeSixteen</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkThemeSixteen</item>
+        <item name="colorAccent">@color/colorAccentThemeSixteen</item>
+        <item name="actionBarStyle">@style/ActionBarTheme</item>
+    </style>
+
+    <style name="CalculatorTheme" parent="@style/Theme.AppCompat">
+        <item name="colorPrimary">@color/calculator_accent_color</item>
+        <item name="android:navigationBarColor">@android:color/holo_red_dark</item>
+        <item name="android:statusBarColor">@color/calculator_accent_color</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="DisplayEditTextStyle" parent="@style/Widget.AppCompat.EditText">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:cursorVisible">false</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:gravity">bottom|end</item>
+    </style>
+
+    <style name="PadButtonStyle" parent="@android:style/Widget.Material.Light.Button.Borderless">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/pad_button_background</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:gravity">center</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:minWidth">0dip</item>
+        <item name="android:minHeight">0dip</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/pad_button_text_color</item>
+    </style>
+
+    <style name="PadLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="MyAlertDialogTheme" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorBackground">@color/browser_text_black</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <style name="dial" parent="Alp_42447968.BaseTheme.Dialog.Light">
+        <!--<item name="alp_42447968_theme_resources">@style/Alp_42447968.BaseTheme.Dialog.Light</item>-->
+    </style>
+
+    <color name="colorPrimaryThemeOne">#29B6F6</color>
+    <color name="colorPrimaryDarkThemeOne">#0086c3</color>
+    <color name="colorPrimaryThemeTwo">#8F63DB</color>
+    <color name="colorAccentThemeTwo">#c292ff</color>
+    <color name="colorPrimaryDarkThemeTwo">#5d37a9</color>
+    <color name="colorPrimaryThemeThree">#371989</color>
+    <color name="colorPrimaryDarkThemeThree">#00005b</color>
+    <color name="colorAccentThemeThree">#6b44ba</color>
+    <color name="colorPrimaryThemeFour">#424242</color>
+    <color name="colorAccentThemeFour">#6d6d6d</color>
+    <color name="colorPrimaryDarkThemeFour">#1b1b1b</color>
+    <color name="colorPrimaryThemeFive">#F06292</color>
+    <color name="colorAccentThemeFive">#ff94c2</color>
+    <color name="colorPrimaryDarkThemeFive">#ba2d65</color>
+    <color name="colorPrimaryThemeSix">#EF5350</color>
+    <color name="colorAccentThemeSix">#ff867c</color>
+    <color name="colorPrimaryDarkThemeSix">#b61827</color>
+    <color name="colorPrimaryThemeSeven">#AB47BC</color>
+    <color name="colorPrimaryDarkThemeSeven">#790e8b</color>
+    <color name="colorAccentThemeSeven">#df78ef</color>
+    <color name="colorPrimaryThemeEight">#FFA000</color>
+    <color name="colorAccentThemeEight">#ffd149</color>
+    <color name="colorPrimaryDarkThemeEight">#c67100</color>
+    <color name="colorPrimaryThemeNine">#66BB6A</color>
+    <color name="colorPrimaryDarkThemeNine">#338a3e</color>
+    <color name="colorAccentThemeNine">#98ee99</color>
+    <color name="colorPrimaryThemeTen">#4DB6AC</color>
+    <color name="colorPrimaryDarkThemeTen">#00867d</color>
+    <color name="colorAccentThemeTen">#82e9de</color>
+    <color name="colorPrimaryThemeEleven">#607D8B</color>
+    <color name="colorAccentThemeEleven">#8eacbb</color>
+    <color name="colorPrimaryDarkThemeEleven">#34515e</color>
+    <color name="colorPrimaryThemeTweleve">#408FCD</color>
+    <color name="colorAccentThemeTwelve">#79bfff</color>
+    <color name="colorPrimaryDarkThemeTwelve">#00629c</color>
+    <color name="colorPrimaryThirteen">#2196F3</color>
+    <color name="colorPrimaryDarkThemeThirteen">#0069c0</color>
+    <color name="colorAccentThemeThirteen">#6ec6ff</color>
+    <color name="colorPrimaryThemeFourteen">#795548</color>
+    <color name="colorAccentThemeFourteen">#a98274</color>
+    <color name="colorPrimaryDarkThemeFourteen">#4b2c20</color>
+    <color name="colorPrimaryThemeFifteen">#00bcd4</color>
+    <color name="colorPrimaryDarkThemeFifteen">#008ba3</color>
+    <color name="colorAccentThemeFifteen">#62efff</color>
+    <color name="colorPrimaryThemeSixteen">#673AB7</color>
+    <color name="colorPrimaryDarkThemeSixteen">#320b86</color>
+    <color name="colorAccentThemeSixteen">#9a67ea</color>
+</resources>

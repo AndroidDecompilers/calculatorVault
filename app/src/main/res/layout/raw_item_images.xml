@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<calculator.vault.com.views.SquareLinerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+        android:background="@drawable/item_border"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@id/ivAlbumThumb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" />
+
+        <ImageView
+            android:id="@id/ivPlaybtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/play_icon"
+            android:visibility="gone" />
+
+        <CheckBox
+            android:id="@+id/checkBox1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/photo_checkboxxml"
+            android:button="@null"
+            android:visibility="visible" />
+
+        <FrameLayout
+            android:id="@+id/flFileName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+            android:background="#88000000"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tvFileName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="2dp"
+                android:text="File"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@color/white" />
+        </FrameLayout>
+    </FrameLayout>
+</calculator.vault.com.views.SquareLinerLayout>

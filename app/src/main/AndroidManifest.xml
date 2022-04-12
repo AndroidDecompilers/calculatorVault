@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="calculator.vault.com">
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission
+        android:name="android.permission.PACKAGE_USAGE_STATS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-feature
+        android:name="android.hardware.fingerprint"
+        android:required="false" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:name=".lock.MyApplication"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher_calculator"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/CalculatorTheme">
+        <activity
+            android:name=".calculator.StartActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".MainActivity11"
+            android:excludeFromRecents="true"
+            android:label="@string/title_activity_drawer_acty"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.APP_CALCULATOR" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".safebrowser.MainBrowserActivity"
+            android:excludeFromRecents="true"
+            android:label="Private Browser"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeOne"
+            android:windowSoftInputMode="adjustResize|adjustNothing" />
+        <activity
+            android:name=".safebrowser.SafeBrowseActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:excludeFromRecents="true"
+            android:hardwareAccelerated="true"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustPan|adjustNothing" />
+        <activity
+            android:name=".safebrowser.QuickUseActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".lock.ViewAlbumActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeOne" />
+
+        <activity
+            android:name=".customgallery.pictures.NewImageAlbumActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeOne" />
+        <activity
+            android:name=".customgallery.pictures.NewImagePhotoActivity"
+            android:excludeFromRecents="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeOne" />
+        <activity
+            android:name=".customgallery.videos.NewVideoAlbumActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeOne" />
+
+        <activity
+            android:name=".safebrowser.HistoryActivity"
+            android:excludeFromRecents="true"
+            android:label="History"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeOne"
+            android:windowSoftInputMode="adjustPan|adjustNothing" />
+
+
+        <activity
+            android:name=".lock.VideoViewNEWActivity"
+            android:configChanges="orientation|screenSize"
+            android:excludeFromRecents="true"
+            android:label="Video Player"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".customgallery.videos.NewVidePhotoActivity"
+            android:excludeFromRecents="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeOne" />
+
+
+        <activity
+            android:name=".lock.ManageSpaceActivity"
+            android:excludeFromRecents="true"
+            android:label="@string/title_activity_manage_space"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".lock.MoveActivity"
+            android:excludeFromRecents="true"
+            android:label="@string/move_activity"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeOne" />
+
+        <activity
+            android:name=".calculator.CalculatorGB"
+            android:theme="@style/AppTheme"></activity>
+        <activity android:name=".calculator.CalculatorL"></activity>
+        <activity android:name=".calculator.CalculatorL23"></activity>
+
+        <activity
+            android:name=".lock.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeOne">
+            <intent-filter>
+                <action android:name="INTENT_ACTION_UNLOCK_LOCKER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".lock.ViewImageActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/AppTheme" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="calculator.vault.com.lock.VideoViewNEWActivity"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/fileprovider" />
+        </provider>
+
+
+        <service
+            android:name=".applock.WindowChangeDetectingService"
+            android:label="@string/app_name"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService" />
+            </intent-filter>
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/accessibilityservice" />
+        </service>
+
+        <!--<receiver android:name="free.app.lock.AlarmReciever" />-->
+        <receiver
+            android:name=".applock.MyPackageReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+
+        <service
+            android:name=".applock.MyAppLockService"
+            android:enabled="true" />
+        <service
+            android:name=".applock.HelperService"
+            android:enabled="true" />
+
+        <receiver
+            android:name=".applock.SureBootReciever"
+            android:exported="false">
+            <intent-filter android:priority="1000">
+                <action android:name="sure.unstoppable.service" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".applock.AppLockActivity"
+            android:excludeFromRecents="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity=""
+            android:theme="@style/Theme.AppCompat.Translucent" />
+
+        <activity
+            android:name=".applock.AppLockActivity23"
+            android:excludeFromRecents="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity=""
+            android:theme="@style/Theme.AppCompat.Translucent" />
+
+        <activity
+            android:name=".lock.SetAppPasswordActivity"
+            android:excludeFromRecents="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeOne" />
+
+
+        <activity
+            android:name=".lock.UninstallProtectionActivity"
+            android:label="Uninstall Protection"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeOne" />
+
+        <receiver
+            android:name=".deviceadmin.MyAdmin"
+            android:permission="android.permission.BIND_DEVICE_ADMIN">
+            <meta-data
+                android:name="android.app.device_admin"
+                android:resource="@xml/policies" />
+            <intent-filter>
+                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".lock.ColorThemeActivity"
+            android:label="Themes"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeOne" />
+
+        <activity
+            android:name=".lock.SetEmailActivity"
+            android:label="Password Recovery"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeOne" />
+
+        <receiver android:name=".applock.AlarmReciever" />
+
+
+        <activity
+            android:name=".calculator.ScannerDemoActivity"
+            android:excludeFromRecents="true"
+            android:label="Try it"
+            android:screenOrientation="portrait" />
+
+
+        <activity
+            android:name="haibison.android.lockpattern.LockPatternActivity"
+            android:excludeFromRecents="true"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            tools:replace="android:screenOrientation" />
+
+        <activity
+            android:name=".applock.DisguisedActivity"
+            android:excludeFromRecents="true"
+            android:label="Fake App Lock Cover"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeOne" />
+
+
+        <activity
+            android:name=".applock.DisguisedForceStopDemoActivity"
+            android:excludeFromRecents="true"
+            android:label="Disguise"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeOne" />'
+
+
+        <activity
+            android:name=".applock.DisguisedFPDemoActivity"
+            android:excludeFromRecents="true"
+            android:label="Disguise"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeOne" />
+
+        <activity
+            android:name=".lock.IntruderActivity"
+            android:label="@string/title_activity_intruder"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeOne" />
+
+        <activity
+            android:name=".lock.IntruderSettingActivity"
+            android:label="@string/title_activity_intruder_setting"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeOne" />
+
+        <service
+            android:name=".applock.Temporary_view_Service"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".lock.FakePinActivity"
+            android:label="@string/title_activity_fake_pin"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeOne" />
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="f0f3de46826845f7b68706d677b62c110276d494" />
+    </application>
+
+</manifest>

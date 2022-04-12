@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<calculator.vault.com.views.SquareLinerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/color_grid_selector_xml"
+    android:padding="15dp">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/color_grid_selector_xml"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/iv1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+            android:background="@drawable/circle_shape"
+            android:clickable="false"
+            android:focusableInTouchMode="false" />
+
+        <ImageView
+            android:id="@+id/ivInside"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+            android:background="@drawable/circle_shape_inside"
+            android:clickable="false"
+            android:focusableInTouchMode="false"
+            android:padding="8dp"
+            android:src="@drawable/tick2" />
+    </RelativeLayout>
+</calculator.vault.com.views.SquareLinerLayout>

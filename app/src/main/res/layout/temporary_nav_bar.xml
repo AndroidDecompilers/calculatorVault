@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+    android:background="#55000000">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="18dp">
+
+        <ImageView
+            android:id="@id/imageView1"
+            android:layout_width="100dp"
+            android:scaleType="centerInside"
+            android:layout_height="wrap_content"
+            android:src="@drawable/scroll_find" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="25dp"
+            android:layout_toRightOf="@id/imageView1"
+            android:text="@string/tempvalue"
+            android:textColor="#ffffff"
+            android:textSize="18dp" />
+    </RelativeLayout>
+</FrameLayout>

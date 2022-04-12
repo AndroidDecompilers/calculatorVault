@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android1="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android1:id="@+id/action_history"
+        android1:icon="@drawable/history_top_bar"
+        android1:orderInCategory="100"
+        android1:title="history"
+        app:showAsAction="always" />
+    <item
+        android1:id="@+id/action_help"
+        android1:icon="@drawable/help_browser"
+        android1:orderInCategory="200"
+        android1:title="Guide"
+        app:showAsAction="always" />
+</menu>
